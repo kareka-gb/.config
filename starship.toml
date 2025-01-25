@@ -34,7 +34,7 @@ stashed = "≡"
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
+style = "purple"
 
 [cmd_duration]
 format = "[$duration]($style) "
@@ -42,5 +42,5 @@ style = "yellow"
 
 [python]
 format = "[$virtualenv]($style) "
-style = "bright-black"
+style = "purple"
 
