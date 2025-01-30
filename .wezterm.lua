@@ -1,10 +1,3 @@
-local function color_scheme_for_appearance(appearance)
-	if appearance:find("Dark") then
-		return "Tokyo Night"
-	else
-		return "Tokyo Night Light (Gogh)"
-	end
-end
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
 
@@ -14,7 +7,7 @@ local config = wezterm.config_builder()
 -- enable scroll bar to the right
 config.enable_scroll_bar = true
 -- config.color_scheme = "Wez"
-config.color_scheme = color_scheme_for_appearance(wezterm.gui.get_appearance())
+config.color_scheme = "Tokyo Night Light (Gogh)"
 
 local act = wezterm.action
 
